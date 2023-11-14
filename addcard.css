@@ -1,0 +1,44 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    width: 100%;
+}
+
+.card img {
+    width: 350px;
+    padding: 5px;
+}
+
+.title {
+    font-weight: bold;
+    margin: 20px;
+}
+
+button {
+    border: 2px solid black;
+    background: #f7a440;
+    color: white;
+    font-weight: bold;
+    margin: 20px;
+    padding: 5px 10px;
+}
+
+button:hover {
+    box-shadow: 0 0 5px 5px black;
+}
+.cart{
+    width: 280px;
+    float: right;
+    text-align: center;
+    border: 1px solid black;
+    overflow-y: scroll;
+    height: 100%;
+}
+.parent{
+    display: flex;
+}
+.cartImg > img{
+    width: 200px;
+}
